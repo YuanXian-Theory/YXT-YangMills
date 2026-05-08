@@ -1,0 +1,47 @@
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.pdf
+*.dvi
+
+# SageMath / Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+env/
+venv/
+.venv/
+*.sage.py
+
+# Lean 4
+/.lake/
+build/
+lean-toolchain
+*.olean
+*.olean.tmp
+*.trace
+
+# Figures (keep source, ignore large generated if needed)
+# figures/*.png
+# figures/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
